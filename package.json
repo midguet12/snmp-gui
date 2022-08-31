@@ -1,0 +1,24 @@
+{
+  "name": "snmp-gui",
+  "version": "1.0.0",
+  "description": "snmp web dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midguet12/snmp-gui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midguet12/snmp-gui/issues"
+  },
+  "homepage": "https://github.com/midguet12/snmp-gui#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
