@@ -9,12 +9,12 @@ const port = 3000;
 app.use(express.static('public'));
 
 
-app.get('views/index.html', (req, res) => {
-  
-})
+app.get('/',function(req,res) {
+  res.sendFile(__dirname + '/views/index.html');
+});
 
 
-server.listen(port, hostname, () => {
+app.listen(port, hostname, () => {
   console.log(`El servidor se está ejecutando en http://${hostname}:${port}/`);
 
 });
